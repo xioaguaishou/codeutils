@@ -1,0 +1,12 @@
+GenerateSSH:
+    1. 根据模板生成相应base java
+    2. 根据模板生成相应mvc java
+    3. 文件保存在自定义目录下
+
+GenerateSSM
+    1. 生成mybatis-generate所需的generatorConfig.xml文件
+    2. 配置maven项目逆向生成mybatis domain、dao(文件保存在当前项目自定义目录下)
+        2.1 Edit Configurations ==> add
+        2.2 maven ==> input name
+        2.3 command line: mybatis-generator:generate -e
+    3. 运行maven
