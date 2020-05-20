@@ -9,8 +9,8 @@ public class GenerateSSH {
 
     public static void main(String[] args) throws IOException, TemplateException {
         System.out.println("正在生成中, 请耐心等待...");
-        String destinationPath = "F:\\huajiao\\";
-        String packageName = "com.huajiao.lam";
+        String destinationPath = "F:\\tiance\\";
+        String packageName = "com.tiance.lam";
 
         String currentProjectPath = System.getProperty("user.dir");
         String templatePath = currentProjectPath + "\\src\\main\\resources\\template\\sshmvc";

@@ -41,11 +41,11 @@ public class GenerateSSM {
 //        如果maven工程是分模块的工程，targetProject="所属模块的名称"，例如：
 //        targetProject="ecps-manager-mapper"，下同
         // 自定义生成文件保存目录
-        map.put("domainPackage", "com.leyi.lam.domain");
+        map.put("domainPackage", "com.tiance.lam.pojo");
         map.put("domainProject", "src/main/java");
-        map.put("mapperPackage", "com.leyi.lam.mapper");
+        map.put("mapperPackage", "com.tiance.lam.mapper");
         map.put("mapperProject", "src/main/java");
-        map.put("mapperXmlPackage", "com.leyi.lam.mapper");
+        map.put("mapperXmlPackage", "com.tiance.lam.mapper");
         map.put("mapperXmlProject", "src/main/java");
 
         map.put("fDriverClass", DBUtil.getDriver());
