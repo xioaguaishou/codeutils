@@ -7,7 +7,11 @@ public class BaseUtil {
         System.out.println(palindromeString(1234554321));
     }
 
-
+    /**
+     * 判断回文, 字符串和数组
+     * @param tarStr
+     * @return
+     */
     public static boolean palindromeString(String tarStr) {
         tarStr = tarStr.trim();
         if (tarStr.length() <= 1) {
